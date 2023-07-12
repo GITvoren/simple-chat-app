@@ -1,0 +1,65 @@
+.title{
+     color: steelblue;
+}
+
+.chat-container{
+     border: 2px solid #000000;
+     padding: 10px;
+     margin: 30px 30px;
+     border-radius: 5px;
+}
+
+.chat-messages{
+     list-style-type: none;
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+}
+
+.message-item{
+     border: 1px solid #80669d;
+}
+
+.message-text{
+     margin-left: 5px;
+}
+
+.message-sender{
+     font-weight: bold;
+}
+
+.chat-form{
+     display: flex;
+     gap: 1rem;
+}
+
+.chat-form input[type="text"]{
+     flex: 1;
+     padding: 0.5rem;
+     border: 0.5px solid black;
+     border-radius: 4px;
+}
+
+.chat-form button{
+     width: 100px;
+     padding: 8px 16px;
+     background-color: black;
+     color: #f0f0f0;
+     cursor: pointer;
+     border: 2px solid white;
+     border-radius: 8px;
+     font-weight: bold;
+     transition: 0.3s ease-in-out all;
+}
+
+.chat-form button:hover{
+     background-color: white;
+     border: 2px solid black;
+     color: #000000;
+     transition: 0.3s ease-in-out all;
+}
+
+.socket-id{
+     color: goldenrod;
+}
